@@ -1,0 +1,4 @@
+// Typography
+@include fontFace("Aileron-Regular", "#{$fonts-folder}/#{$aileron-folder}/Aileron-Regular");
+@include fontFace("Aileron-Bold", "#{$fonts-folder}/#{$aileron-folder}/Aileron-Bold");
+@include fontFace("Aileron-SemiBold", "#{$fonts-folder}/#{$aileron-folder}/Aileron-SemiBold");

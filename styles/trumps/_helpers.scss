@@ -1,0 +1,117 @@
+.align-center {
+  text-align: center !important;
+}
+
+.align-right {
+  text-align: right !important;
+}
+
+.align-left {
+  text-align: left !important;
+}
+
+.float-right {
+  float: right !important;
+}
+
+.float-left {
+  float: left !important;
+}
+
+.plus-sign {
+  position: relative;
+  top: 17px;
+  right: 20px;
+}
+
+.is-visible {
+  display: block !important;
+}
+
+.is-hidden {
+  display: none !important;
+}
+
+.arrow-index  {
+ display: block;
+ position: relative;
+ right: 10px;
+ float: right;
+}
+
+.scrollable {
+  overflow: scroll;
+  height: 300px;
+}
+
+.error {
+  color: $red;
+}
+
+.divider:last-child() {
+  border-bottom: 1px solid $black;
+}
+
+.is-selected {
+  background: $gray-600 !important;
+  > p {
+    color: $white;
+  }
+}
+
+.is-lonely {
+  @extend .is-selected;
+}
+
+.is-selectedGateway {
+  background: $gray-600 !important;
+}
+
+.is-selectedDetector {
+  background: $gray-600 !important;
+}
+
+.is-active {
+  background: $gray-700;
+}
+
+.status {
+  color: $red;
+}
+
+.cell p {
+  padding-left: 0.5em;
+  padding-right: 0;
+}
+
+.status {
+  color: $red;
+}
+
+.bolder {
+  font-weight: bolder;
+}
+
+.clearfix {
+   @include clearfix;
+  clear: both;
+}
+
+.is-inline {
+  display: inline-block;
+  margin: 0.5em 0;
+}
+
+
+.date-range--to {
+  margin-right: 0.5em;
+}
+
+.date-range--from {
+  margin-left: 0.5em;
+}
+
+.arrow {
+  color: $gray-800;
+}
+
