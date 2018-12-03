@@ -1,0 +1,16 @@
+@function type-scale($level) {
+  @return map-get($type-scale, $level);
+}
+
+// Retreive color Sass maps
+@function color($key: "white") {
+  @return map-get($colors, $key);
+}
+
+@function line-height($level) {
+  @return map-get($line-height, $level);
+}
+
+@function rem($val) {
+  @return #{$val / 16}rem;
+}

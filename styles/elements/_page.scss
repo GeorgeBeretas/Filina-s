@@ -1,0 +1,15 @@
+html,
+body {
+  height: 100%;
+}
+
+html {
+  color: $base-font-color;
+  font-family: $base-font-family;
+  font-size: 100%;
+  line-height: $base-line-height;
+}
+
+body {
+  min-height: 100vh;
+}

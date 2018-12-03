@@ -1,0 +1,11 @@
+.btn {
+  color: black;
+  &--default {
+    background-color: color(white);
+    border: 1px solid $base-border-color;
+
+    &:hover {
+      color: $white;
+    }
+  }
+}

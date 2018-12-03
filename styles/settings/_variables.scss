@@ -1,0 +1,108 @@
+//
+// Color system
+//
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #868e96 !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+
+$grays: (
+  100: $gray-100,
+  200: $gray-200,
+  300: $gray-300,
+  400: $gray-400,
+  500: $gray-500,
+  600: $gray-600,
+  700: $gray-700,
+  800: $gray-800,
+  900: $gray-900
+) !default;
+
+$black:  #000 !default;
+$white:  #fff !default;
+$red: #dd4B37 !default;
+$orange:  #f37021 !default;
+$yellow:  #ffc124 !default;
+
+
+$colors: (
+  red: $red,
+  orange: $orange,
+  yellow: $yellow,
+  white: $white,
+  gray: $gray-600,
+  gray-dark: $gray-800
+) !default;
+
+
+// Typography
+$base-font-family: $font-stack-system;
+$heading-font-family: $base-font-family;
+
+// Line height
+$base-line-height: 1.5;
+$heading-line-height: 1.2;
+
+// Other Sizes
+$base-border-radius: 3px;
+$base-spacing: 1.5em;
+$small-spacing: $base-spacing / 2;
+$base-z-index: 0;
+
+
+// Font Colors
+$base-font-color: $gray-600;
+$action-color: $orange;
+
+// Border
+$base-border-color: #525252;
+$base-border: 1px solid $base-border-color;
+
+// Background Colors
+$base-background-color: $white;
+$secondary-background-color: tint($base-border-color, 75%);
+
+// Focus
+$focus-outline-color: transparentize($action-color, 0.4);
+$focus-outline-width: 3px;
+$focus-outline: $focus-outline-width solid $focus-outline-color;
+$focus-outline-offset: 2px;
+
+// Animations
+$base-duration: 150ms;
+$base-timing: ease;
+
+
+
+//Fonts
+$fonts-folder: '../fonts' !default;
+$aileron-folder: 'Aileron' !default;
+
+//Fonts Size
+$base-font-size: 1rem !default;
+
+
+// options
+$option-size:            1em !default;
+$explosion-distance:     5 !default; // multiplied by $option-size
+$explosion-duration:     0.65s !default;
+
+$type-scale: (
+  -1: 0.75rem,  // small text
+  0: 1rem,      // body text
+  1: 1.333rem,  // large text
+  2: 1.777rem   // main heading
+);
+
+$line-height: (
+  -1: $base-line-height,
+  0: $base-line-height,
+  1: $base-line-height * 2,
+  2: $base-line-height * 2
+);
+

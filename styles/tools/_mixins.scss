@@ -1,0 +1,14 @@
+@mixin fontFace($family,$src,$style: normal, $weight: normal) {
+	@font-face {
+		font-family: $family;
+		src: url('#{$src}.otf') format('opentype');
+		font-style: $style;
+		font-weight: $weight;
+	}
+}
+
+
+@mixin type-setting($level: 0) {
+  font-size: type-scale($level);
+  line-height: line-height($level);
+}
