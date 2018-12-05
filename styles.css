@@ -99,10 +99,10 @@ body {
 }
 
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
     .apartment{
 	  display: inline-block;
-	  width: 90%;
+	  width: 90% !important;
 	  padding-left: 10px;
 	  padding-right: 10px;
 	}
